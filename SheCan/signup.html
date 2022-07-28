@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+    
+
+    fieldset{
+        margin: 0 auto;
+        background-color: rgba(167, 184, 200, 0.664);
+        width: 40%;
+        height: 100%;
+        display: inline;
+        border: 2px;
+        box-shadow: black;
+        border-radius: 10px;
+        align-content: center;
+        justify-content:center;
+        margin: 10 10 0 350px;
+        float: center;
+    }
+    body{
+      background-color: rgb(22, 26, 25)
+    }
+    legend{
+        background-color: rgba(8,20,13,0.986);
+        color: white;
+        padding: 5px 10px;
+        margin: auto;
+        border-radius: 5px;
+
+    }
+.sign_up
+{
+  background-color: transparent;
+  size: 50px;
+  width: 80%;
+  align-items: flex-end;
+  justify-content: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email]{
+  width: 40%;
+  margin: 5px 0 10px;
+  color: rgb(7, 2, 2);
+  padding: 10px;
+}
+
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #084208f7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:5;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:#be0d03f9;
+ 
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  width: 30%;
+}
+p{
+    color: white;
+}
+
+
+</style>
+<body>
+<form action="">
+<div class="sign_up">
+    <fieldset>
+    <legend>Sign Up</legend>
+    <p>Please fill in this form to create an account.</p>
+    
+    <label for="username"><b>Username:</b></label><br>
+    <input type="text" placeholder="Enter username" name="name" required><br><br>
+
+    <label for="email"><b>Email:</b></label><br>
+    <input type="email" placeholder="Enter Email" name="email" required><br><br>
+
+    <label for="psw"><b>Password:</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+    <label for="psw-confirm"><b>Confirm Password:</b></label><br>
+    <input type="password" placeholder="Re-enter Password" name="psw-confirm" required><br><br>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px, color=white"> Remember me
+
+    </label><br>
+    
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn"><a href="e_wallet.html" style="text-decoration: none; color: black;">Cancel</a></button> 
+      <button type="submit" class="signupbtn">Sign up </button>
+    </div>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
